@@ -1,0 +1,102 @@
+html{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+body{
+    font-family:'montserrat',sans-serif ;
+    font-size: 62.5%;
+}
+
+.heading{
+    text-align: left;
+    font-size: 04rem;
+    margin-bottom:5rem;
+    position: relative;
+    top:12rem;
+    left:26rem;
+    
+
+}
+
+.heading2{
+    text-align: right;
+    font-size: 02rem;
+    position:relative;
+    right:31rem;
+    top:5rem
+}
+
+.img{
+    margin-top: 10px;
+    position:relative;
+    left:57rem;
+
+}
+
+
+.card-container{
+   display: flex;
+   position:relative;
+   left:21rem;
+
+}
+
+.card{
+    
+    width:15rem;
+    height:20rem;
+    border: 2px solid red;
+    margin:4rem; 
+    transition: 0.3s;
+   
+    
+}
+
+.card-header{
+
+    text-align: center;
+    padding:2rem rem;
+}
+
+.card-body{
+    text-align: center;
+    padding:0.3rem;
+
+}
+
+.card-body1{
+    text-align: center;
+    padding:0.3rem;
+    text-decoration: line-through;
+}
+
+
+
+@media(max-width:1080px){
+html{
+    font-size:60%;
+    padding:3rem;
+}
+@media(max-width:998px){
+    html{
+        font-size:55%;
+    }
+}
+@media(max-width:760px){
+    html{
+        font-size:45%;
+    }
+@media(max-width:500px){
+    html{
+        font-size:40%;
+        } 
+        @media(max-width:100px){
+            html{
+                font-size:25%;
+                padding:10rem;
+            }           
+}
